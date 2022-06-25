@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid grey
+}
+
+legend {
+  padding: 4px;
+}
+
+input {
+  width: 91%;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
