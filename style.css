@@ -8,6 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -16,7 +17,7 @@ fieldset {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  border: 1px solid grey
+  border: 1px solid #ccc
 }
 
 legend {
@@ -28,7 +29,7 @@ input {
   border-radius: 5px;
   padding: 5px;
   margin: 10px;
-  border: 1px solid grey;
+  border: 1px solid #ccc;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -41,4 +42,24 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+p.note {
+  width: 20vw;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 44px;
 }
